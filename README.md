@@ -1,7 +1,6 @@
-## Welcome to GitHub Pages
+## [断臂的维纳斯](https://huoma.github.io/hello.html)
 
 You can use the [editor on GitHub](https://github.com/huoma/huoma.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-[断臂的维纳斯](https://huoma.github.io/hello.html)
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
