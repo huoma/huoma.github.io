@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my test pages</title>
+    <title>欢迎你啊！</title>
     <link rel="alternate icon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
     <!-- <link rel="icon" href="恋爱研究所.gif" type="image/x-icon"> -->
 
@@ -50,6 +50,21 @@
                 }
             });
         })();
+    </script>
+    <script type="text/javascript">
+        function scroll() {
+            //获取title信息。
+            var titleInfo = document.title;
+            //获取title第一个汉字（数字、字母）。
+            //注释：字符串中第一个字符的下标是 0。如果参数 index 不在 0 与 string.length 之间，该方法将返回一个空字符串。
+            var firstInfo = titleInfo.charAt(0);
+            //获取第二位到最后的信息。
+            var lastInfo = titleInfo.substring(1, titleInfo.length);
+            //拼接输出信息
+            document.title = lastInfo + firstInfo;
+        }
+        //使用setInterval（）方法执行
+        setInterval("scroll()", 500);
     </script>
 </body>
 </html>         
