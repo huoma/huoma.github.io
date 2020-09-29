@@ -43,9 +43,9 @@
   <entry>
     <title>next主题配置gitalk评论系统</title>
     <url>/2020/09/29/gitalk/</url>
-    <content><![CDATA[<h3 id="1-遇到的问题"><a href="#1-遇到的问题" class="headerlink" title="1.遇到的问题"></a>1.遇到的问题</h3><ul>
+    <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
 <li>github建完新repo之后忘记初始化issue了。</li>
-<li>博客会有提示，直接点击那个蓝色的issue按钮，随便给个名字初始化一个issue.再刷新就可以了。<h3 id="2-参考文章"><a href="#2-参考文章" class="headerlink" title="2.参考文章"></a>2.参考文章</h3></li>
+<li>博客会有提示，直接点击那个蓝色的issue按钮，随便给个名字初始化一个issue.再刷新就可以了。<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3></li>
 <li><a href="https://www.jianshu.com/p/b5f509f25872">为 Hexo 的 Next 主题添加 Gitalk 评论</a></li>
 </ul>
 ]]></content>
