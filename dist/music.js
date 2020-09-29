@@ -12,10 +12,9 @@ const ap = new APlayer({
     volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
     fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
     audio: [{ 
-      name: '光るなら',
-      artist: 'Goose house',
-      url: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3',
-      cover: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg',
+      name: '记念',
+      artist: 'RAiNBOW计划,雷雨心',
+      url: 'http://183.240.120.15/amobile.music.tc.qq.com/C400004IAG2L4W0snh.m4a?guid=791416630&vkey=7C93A4F947CC853C2CACE091E2222533B64F7A948823BACA5E191AAF5C03E2BB42104854C2914BA7C6AE9F53008A80B12F4660C5419A66FD&uin=0&fromtag=66',
       theme: '#ebd0c2'
     }
     ]
