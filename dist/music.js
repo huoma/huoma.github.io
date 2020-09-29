@@ -28,16 +28,4 @@ const ap = new APlayer({
     ]
   });
 
-  //实现切换音频时，根据音频的封面图片自适应主题色
-  const colorThief = new ColorThief();
-  const setTheme = (index) => {
-    if (!ap.list.audios[index].theme) {
-      colorThief.getColorAsync(ap.list.audios[index].cover, function(color) {
-        ap.theme(`rgb(${color[0]}, ${color[1]}, ${color[2]})`, index);
-      });
-    }
-  };
-  setTheme(ap.list.index);
-  ap.on('listswitch', (data) => {
-    setTheme(data.index);
-  });
+  
