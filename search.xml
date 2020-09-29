@@ -24,6 +24,12 @@
       </tags>
   </entry>
   <entry>
+    <title>you dance, you death</title>
+    <url>/2020/09/29/dance-equal-death/</url>
+    <content><![CDATA[<p>看？看了个寂寞。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>next主题配置gitalk评论系统</title>
     <url>/2020/09/29/gitalk/</url>
     <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
@@ -54,12 +60,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>you dance, you death</title>
-    <url>/2020/09/29/dance-equal-death/</url>
-    <content><![CDATA[<p>看？看了个寂寞。</p>
 ]]></content>
   </entry>
 </search>
