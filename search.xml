@@ -24,6 +24,12 @@
       </tags>
   </entry>
   <entry>
+    <title>you dance, you death</title>
+    <url>/2020/09/29/dance-equal-death/</url>
+    <content><![CDATA[<p>看？看了个寂寞。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>next主题配置gitalk评论系统</title>
     <url>/2020/09/29/gitalk/</url>
     <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
@@ -36,12 +42,6 @@
 <h3 id="配置完成之后的刷新小技巧"><a href="#配置完成之后的刷新小技巧" class="headerlink" title="配置完成之后的刷新小技巧"></a>配置完成之后的刷新小技巧</h3><ul>
 <li>摁F12或者打开开发者工具，然后Ctrl + R 重新载入。其实可以直接Ctrl R，不过我喜欢再开发者页面看文件的加载。</li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>you dance, you death</title>
-    <url>/2020/09/29/dance-equal-death/</url>
-    <content><![CDATA[<p>看？看了个寂寞。</p>
 ]]></content>
   </entry>
   <entry>
