@@ -11,20 +11,13 @@ const ap = new APlayer({
     lrcType: 3, //歌词格式，可选值：3（LRC文件歌词格式），1（JS字符串歌词格式）
     volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
     fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
-    audio: [{
-        name: '平凡之路',
-        artist: '朴树',
-        lrc: '/downloads/lrc/平凡之路-朴树.lrc',
-        cover: 'http://p2.music.126.net/W_5XiCv3rGS1-J7EXpHSCQ==/18885211718782327.jpg?param=300x300',
-        url: 'http://fs.open.kugou.com/cd5cbe8edb012e4f77b0857cefc0956e/5c66accf/G097/M08/0A/1F/AYcBAFkQGpOAMUpuAEm-3SlWMyk951.mp3'
-      },
-      {
-        name: '后会无期',
-        artist: 'G.E.M.邓紫棋',
-        lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
-        cover: 'http://p1.music.126.net/vpvPajo3kn88nHc7jUjeWQ==/5974746185758035.jpg?param=300x300',
-        url: 'http://m10.music.126.net/20190215193113/e5afc8b5376136029366f2053cf30f85/ymusic/2c87/6ec3/582e/0d572dcc04f8de34133c0f364b74c30c.mp3'
-      }
+    audio: [{ 
+      name: '光るなら',
+      artist: 'Goose house',
+      url: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3',
+      cover: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg',
+      theme: '#ebd0c2'
+    }
     ]
   });
 
