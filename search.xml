@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>you dance, you death</title>
-    <url>/2020/09/29/dance-equal-death/</url>
-    <content><![CDATA[<p>看？看了个寂寞。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>next主题配置gitalk评论系统</title>
-    <url>/2020/09/29/gitalk/</url>
-    <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
-<li>github建完新repo之后忘记初始化issue了。</li>
-<li>博客会有提示，直接点击那个蓝色的issue按钮，随便给个名字初始化一个issue。再刷新就可以了。</li>
-</ul>
-<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul>
-<li><a href="https://www.jianshu.com/p/b5f509f25872">为 Hexo 的 Next 主题添加 Gitalk 评论</a></li>
-</ul>
-<h3 id="配置完成之后的刷新小技巧"><a href="#配置完成之后的刷新小技巧" class="headerlink" title="配置完成之后的刷新小技巧"></a>配置完成之后的刷新小技巧</h3><ul>
-<li>摁F12或者打开开发者工具，然后Ctrl + R 重新载入。其实可以直接Ctrl R，不过我喜欢再开发者页面看文件的加载。</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>致橡树</title>
     <url>/2020/09/28/To-The-Oak/</url>
     <content><![CDATA[<p>….</p>
@@ -45,6 +24,27 @@
       <tags>
         <tag>poet</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>next主题配置gitalk评论系统</title>
+    <url>/2020/09/29/gitalk/</url>
+    <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
+<li>github建完新repo之后忘记初始化issue了。</li>
+<li>博客会有提示，直接点击那个蓝色的issue按钮，随便给个名字初始化一个issue。再刷新就可以了。</li>
+</ul>
+<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul>
+<li><a href="https://www.jianshu.com/p/b5f509f25872">为 Hexo 的 Next 主题添加 Gitalk 评论</a></li>
+</ul>
+<h3 id="配置完成之后的刷新小技巧"><a href="#配置完成之后的刷新小技巧" class="headerlink" title="配置完成之后的刷新小技巧"></a>配置完成之后的刷新小技巧</h3><ul>
+<li>摁F12或者打开开发者工具，然后Ctrl + R 重新载入。其实可以直接Ctrl R，不过我喜欢再开发者页面看文件的加载。</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>you dance, you death</title>
+    <url>/2020/09/29/dance-equal-death/</url>
+    <content><![CDATA[<p>看？看了个寂寞。</p>
+]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
