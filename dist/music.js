@@ -13,8 +13,8 @@ const ap = new APlayer({
     fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
     audio: [{ 
       name: '记念',
-      artist: 'RAiNBOW计划,雷雨心',
-      url: 'http://183.240.120.15/amobile.music.tc.qq.com/C400004IAG2L4W0snh.m4a?guid=791416630&vkey=7C93A4F947CC853C2CACE091E2222533B64F7A948823BACA5E191AAF5C03E2BB42104854C2914BA7C6AE9F53008A80B12F4660C5419A66FD&uin=0&fromtag=66',
+      artist: '蔡健雅',
+      url: 'http://music.163.com/song/media/outer/url?id=38018397.mp3',
       theme: '#ebd0c2'
     }
     ]
