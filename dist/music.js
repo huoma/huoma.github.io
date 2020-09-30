@@ -16,7 +16,7 @@ const ap = new APlayer({
       artist: '范晓萱',
       cover: 'https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/5513f311e612912ed77276103466308a/0dd62106704fcc2119b4b6543a91c5fb',
       lrc: 'https://app.onenine.cc/m/api/lrc/migu/id/d24dSVwtIuyBIGXGKLpHE4hZR65_ajGpwSdaX8FTDBmFartiNcCluAry8jmqNdWwXb1nzDRpUtDRiqhoK6QxfH80gRQhwiRan4yTMkWpbLxrJVsZjbmiNOHZLCPvJQC0lrvE3RGclu9lpknkSTkB9SCoBsCLigqJ2TA4ExLeHQ/name/%E7%A8%8D%E6%81%AF%E7%AB%8B%E6%AD%A3%E7%AB%99%E5%A5%BD%20-%20%E8%8C%83%E6%99%93%E8%90%B1.lrc',
-      url: 'http://218.205.239.34/MIGUM2.0/v1.0/content/sub/listenSong.do?toneFlag=SQ&netType=00&copyrightId=0&contentId=600902000009542002&resourceType=E&channel=0',
+      url: '/music/稍息立正站好-范晓萱.mp3',
       theme: '#ebd0c2'
     }
     ]
