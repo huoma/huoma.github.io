@@ -12,8 +12,10 @@ const ap = new APlayer({
     volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
     fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
     audio: [{ 
-      name: '记念',
-      artist: '蔡健雅',
+      name: '稍息立正站好',
+      artist: '范晓萱',
+      cover: 'https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/5513f311e612912ed77276103466308a/0dd62106704fcc2119b4b6543a91c5fb',
+      lrc: 'https://app.onenine.cc/m/api/lrc/migu/id/d24dSVwtIuyBIGXGKLpHE4hZR65_ajGpwSdaX8FTDBmFartiNcCluAry8jmqNdWwXb1nzDRpUtDRiqhoK6QxfH80gRQhwiRan4yTMkWpbLxrJVsZjbmiNOHZLCPvJQC0lrvE3RGclu9lpknkSTkB9SCoBsCLigqJ2TA4ExLeHQ/name/%E7%A8%8D%E6%81%AF%E7%AB%8B%E6%AD%A3%E7%AB%99%E5%A5%BD%20-%20%E8%8C%83%E6%99%93%E8%90%B1.lrc',
       url: 'http://music.163.com/song/media/outer/url?id=38018397.mp3',
       theme: '#ebd0c2'
     }
