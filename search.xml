@@ -39,6 +39,12 @@
       </categories>
   </entry>
   <entry>
+    <title>you dance, you death</title>
+    <url>/2020/09/29/dance-equal-death/</url>
+    <content><![CDATA[<p>看？看了个寂寞。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>next主题配置gitalk评论系统</title>
     <url>/2020/09/29/gitalk/</url>
     <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
@@ -52,28 +58,6 @@
 <li>摁F12或者打开开发者工具，然后Ctrl + R 重新载入。其实可以直接Ctrl R，不过我喜欢再开发者页面看文件的加载。</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>you dance, you death</title>
-    <url>/2020/09/29/dance-equal-death/</url>
-    <content><![CDATA[<p>看？看了个寂寞。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>搞完了，终于</title>
-    <url>/2020/09/30/sogo/</url>
-    <content><![CDATA[<h3 id="写个标题吧"><a href="#写个标题吧" class="headerlink" title="写个标题吧"></a>写个标题吧</h3><ul>
-<li>评论系统gitalk</li>
-<li>音乐播放器aplayer</li>
-</ul>
-<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>现在我还不知到怎么更改让这个博文的内容剧中，用<code>cq</code>格式令我很不舒服。<br>那个音乐其实我想把它放在github上一起上传，直接在上面播放，结果就是我天真了。没实现。嗐<br>今天就这样吧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>呼噜哗啦</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -92,5 +76,21 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>搞完了，终于</title>
+    <url>/2020/09/30/sogo/</url>
+    <content><![CDATA[<h3 id="写个标题吧"><a href="#写个标题吧" class="headerlink" title="写个标题吧"></a>写个标题吧</h3><ul>
+<li>评论系统gitalk</li>
+<li>音乐播放器aplayer</li>
+</ul>
+<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>现在我还不知到怎么更改让这个博文的内容剧中，用<code>cq</code>格式令我很不舒服。<br>那个音乐其实我想把它放在github上一起上传，直接在上面播放，结果就是我天真了。没实现。嗐<br>今天就这样吧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>呼噜哗啦</tag>
+      </tags>
   </entry>
 </search>
