@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>修改文章底部的那个带#号的标签</title>
+    <url>/2020/09/30/change-tag-icon/</url>
+    <content><![CDATA[<h3 id="next版本v8-0-0-修改文章底部的那个带-号的标签"><a href="#next版本v8-0-0-修改文章底部的那个带-号的标签" class="headerlink" title="next版本v8.0.0 修改文章底部的那个带#号的标签"></a>next版本v8.0.0 修改文章底部的那个带#号的标签</h3><pre class="line-numbers language-none"><code class="language-none">可以在next主题文件下的_config.yml中查找tag_icon然后把后面的
+false改为true.
+如下：
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>为啥呢，因为我在next/layout/_macro/post.njk下发现了这段代码</p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;%- set tag_indicate &#x3D; &#39;&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;&#39; if theme.tag_icon else &#39;#&#39; %&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
     <title>致橡树</title>
     <url>/2020/09/28/To-The-Oak/</url>
     <content><![CDATA[<p>….</p>
@@ -24,24 +42,6 @@
       <tags>
         <tag>poet</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>修改文章底部的那个带#号的标签</title>
-    <url>/2020/09/30/change-tag-icon/</url>
-    <content><![CDATA[<h3 id="next版本v8-0-0-修改文章底部的那个带-号的标签"><a href="#next版本v8-0-0-修改文章底部的那个带-号的标签" class="headerlink" title="next版本v8.0.0 修改文章底部的那个带#号的标签"></a>next版本v8.0.0 修改文章底部的那个带#号的标签</h3><pre class="line-numbers language-none"><code class="language-none">可以在next主题文件下的_config.yml中查找tag_icon然后把后面的
-false改为true.
-如下：
-# Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>为啥呢，因为我在next/layout/_macro/post.njk下发现了这段代码</p>
-<pre class="line-numbers language-none"><code class="language-none">&#123;%- set tag_indicate &#x3D; &#39;&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;&#39; if theme.tag_icon else &#39;#&#39; %&#125;
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
   </entry>
   <entry>
     <title>booklist</title>
@@ -68,6 +68,12 @@ tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><s
       </tags>
   </entry>
   <entry>
+    <title>you dance, you death</title>
+    <url>/2020/09/29/dance-equal-death/</url>
+    <content><![CDATA[<p>看？看了个寂寞。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>next主题配置gitalk评论系统</title>
     <url>/2020/09/29/gitalk/</url>
     <content><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ul>
@@ -80,12 +86,6 @@ tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><s
 <h3 id="配置完成之后的刷新小技巧"><a href="#配置完成之后的刷新小技巧" class="headerlink" title="配置完成之后的刷新小技巧"></a>配置完成之后的刷新小技巧</h3><ul>
 <li>摁F12或者打开开发者工具，然后Ctrl + R 重新载入。其实可以直接Ctrl R，不过我喜欢再开发者页面看文件的加载。</li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>you dance, you death</title>
-    <url>/2020/09/29/dance-equal-death/</url>
-    <content><![CDATA[<p>看？看了个寂寞。</p>
 ]]></content>
   </entry>
   <entry>

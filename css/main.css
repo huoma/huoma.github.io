@@ -1264,7 +1264,7 @@ pre code {
 }
 .header-inner {
   margin: 0 auto;
-  width: calc(100% - 13.333333333333334px);
+  width: calc(100% - 20px);
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -1273,7 +1273,7 @@ pre code {
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 73%;
+    width: 60%;
   }
 }
 .site-brand-container {
@@ -1699,7 +1699,7 @@ pre code {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: calc(100% - 13.333333333333334px);
+  width: calc(100% - 20px);
 }
 @media (min-width: 1200px) {
   .footer-inner {
@@ -1708,7 +1708,7 @@ pre code {
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 73%;
+    width: 60%;
   }
 }
 .use-motion .footer {
@@ -2710,7 +2710,7 @@ mark.search-keyword {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: calc(100% - 13.333333333333334px);
+  width: calc(100% - 20px);
 }
 @media (min-width: 1200px) {
   .main {
@@ -2719,7 +2719,7 @@ mark.search-keyword {
 }
 @media (min-width: 1600px) {
   .main {
-    width: 73%;
+    width: 60%;
   }
 }
 @media (max-width: 991px) {
