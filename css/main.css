@@ -1264,7 +1264,7 @@ pre code {
 }
 .header-inner {
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 13.333333333333334px);
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -1699,7 +1699,7 @@ pre code {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 13.333333333333334px);
 }
 @media (min-width: 1200px) {
   .footer-inner {
@@ -2710,7 +2710,7 @@ mark.search-keyword {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 13.333333333333334px);
 }
 @media (min-width: 1200px) {
   .main {
