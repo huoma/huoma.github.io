@@ -22,4 +22,4 @@ const ap = new APlayer({
     ]
   });
 
-  
+  ap.lrc.hide()
