@@ -122,4 +122,17 @@ tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><s
         <tag>呼噜哗啦</tag>
       </tags>
   </entry>
+  <entry>
+    <title>求解gcd和lcm</title>
+    <url>/2020/10/11/gcd%E5%92%8Clcm/</url>
+    <content><![CDATA[<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># Greatest Common Divisor(GCD),最大公约数</span>
+<span class="token keyword">def</span> <span class="token function">gcd</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> m <span class="token keyword">if</span> n <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">else</span> gcd<span class="token punctuation">(</span>n<span class="token punctuation">,</span> m <span class="token operator">%</span> n<span class="token punctuation">)</span>
+
+
+<span class="token comment"># Lowest Common Multiple,LCM，最小公倍数</span>
+<span class="token keyword">def</span> <span class="token function">lcm</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> m <span class="token operator">*</span> n <span class="token operator">//</span> gcd<span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+  </entry>
 </search>
