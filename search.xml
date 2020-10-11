@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>修改文章底部的那个带#号的标签</title>
-    <url>/2020/09/30/change-tag-icon/</url>
-    <content><![CDATA[<h3 id="next版本v8-0-0-修改文章底部的那个带-号的标签"><a href="#next版本v8-0-0-修改文章底部的那个带-号的标签" class="headerlink" title="next版本v8.0.0 修改文章底部的那个带#号的标签"></a>next版本v8.0.0 修改文章底部的那个带#号的标签</h3><pre class="line-numbers language-none"><code class="language-none">可以在next主题文件下的_config.yml中查找tag_icon然后把后面的
-false改为true.
-如下：
-# Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>为啥呢，因为我在next/layout/_macro/post.njk下发现了这段代码</p>
-<pre class="line-numbers language-none"><code class="language-none">&#123;%- set tag_indicate &#x3D; &#39;&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;&#39; if theme.tag_icon else &#39;#&#39; %&#125;
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-  </entry>
-  <entry>
     <title>致橡树</title>
     <url>/2020/09/28/To-The-Oak/</url>
     <content><![CDATA[<p>….</p>
@@ -68,10 +50,41 @@ tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><s
       </tags>
   </entry>
   <entry>
+    <title>修改文章底部的那个带#号的标签</title>
+    <url>/2020/09/30/change-tag-icon/</url>
+    <content><![CDATA[<h3 id="next版本v8-0-0-修改文章底部的那个带-号的标签"><a href="#next版本v8-0-0-修改文章底部的那个带-号的标签" class="headerlink" title="next版本v8.0.0 修改文章底部的那个带#号的标签"></a>next版本v8.0.0 修改文章底部的那个带#号的标签</h3><pre class="line-numbers language-none"><code class="language-none">可以在next主题文件下的_config.yml中查找tag_icon然后把后面的
+false改为true.
+如下：
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>为啥呢，因为我在next/layout/_macro/post.njk下发现了这段代码</p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;%- set tag_indicate &#x3D; &#39;&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;&#39; if theme.tag_icon else &#39;#&#39; %&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
     <title>you dance, you death</title>
     <url>/2020/09/29/dance-equal-death/</url>
     <content><![CDATA[<p>看？看了个寂寞。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>求解gcd和lcm</title>
+    <url>/2020/10/11/gcd%E5%92%8Clcm/</url>
+    <content><![CDATA[<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># Greatest Common Divisor(GCD),最大公约数</span>
+<span class="token keyword">def</span> <span class="token function">gcd</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> m <span class="token keyword">if</span> n <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">else</span> gcd<span class="token punctuation">(</span>n<span class="token punctuation">,</span> m <span class="token operator">%</span> n<span class="token punctuation">)</span>
+
+
+<span class="token comment"># Lowest Common Multiple,LCM，最小公倍数</span>
+<span class="token keyword">def</span> <span class="token function">lcm</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> m <span class="token operator">*</span> n <span class="token operator">//</span> gcd<span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
   </entry>
   <entry>
     <title>next主题配置gitalk评论系统</title>
@@ -121,18 +134,5 @@ tag_icon: true<span aria-hidden="true" class="line-numbers-rows"><span></span><s
       <tags>
         <tag>呼噜哗啦</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>求解gcd和lcm</title>
-    <url>/2020/10/11/gcd%E5%92%8Clcm/</url>
-    <content><![CDATA[<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># Greatest Common Divisor(GCD),最大公约数</span>
-<span class="token keyword">def</span> <span class="token function">gcd</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">return</span> m <span class="token keyword">if</span> n <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">else</span> gcd<span class="token punctuation">(</span>n<span class="token punctuation">,</span> m <span class="token operator">%</span> n<span class="token punctuation">)</span>
-
-
-<span class="token comment"># Lowest Common Multiple,LCM，最小公倍数</span>
-<span class="token keyword">def</span> <span class="token function">lcm</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">return</span> m <span class="token operator">*</span> n <span class="token operator">//</span> gcd<span class="token punctuation">(</span>m<span class="token punctuation">,</span> n<span class="token punctuation">)</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
   </entry>
 </search>
